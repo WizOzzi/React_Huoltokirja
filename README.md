@@ -1,0 +1,1 @@
+Reactilla tehty "auton huoltokirja" -ohjelma. API:Axios. Backend:ASP.NET.CORE. Database:MSSQL.

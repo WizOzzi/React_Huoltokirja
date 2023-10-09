@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+table{
+  border: 1px solid;
+}
+.parts{
+  
+  width: 20%;
+  text-align: center;
+}
+table:nth-child(odd) {
+  background-color: #8cee83;
+}
+table:nth-child(even) {
+  background-color: #ee83c1;
+}
+.maintenance{
+  width: 10%;
+  text-align: center;
+}
+.carid{
+  width: 5%;
+  text-align: center;
+}
+.price{
+  width: 5%;
+  text-align: center;
+}
+.km{
+  width: 8%;
+  text-align: center;
+}
+.date{
+  width: 5%;
+  text-align: center;
+}
+.job{
+  
+  width: 30%;
+  text-align: center;
+  
+}
+.th{
+  padding-left:30px;
+  text-align: center;
+ }
+  .carList{
+text-align: center;
+  }
+
+#appMain{
+  background-color:rgb(236, 189, 226);
+}
+#hideMaintenance{
+  font-size: 110%;
+  margin-left: 5px;
+}
+#addJob{
+  color: green;
+  font-size: 110%;
+margin-left: 15%;
+margin-top: 2%;
+}
+#delmainte{
+  size: 100%;
+}
+
+.pos{
+  color: green;
+}
+.neg{
+  color: red;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*a picture fills whole page*/
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+#login {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: fixed;
+  top: 100px;
+  left:40%;
+}
+
